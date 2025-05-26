@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "name" {
     location = "east us"
     tags = coalesce(
         name = "vinay"
-        env = "devenv"
+        env = "devpro"
     )
   
 }
